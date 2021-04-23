@@ -15,6 +15,10 @@ Connect this app to a database so users can actually maintain a persistent list 
 <li>
 User registrations
 </li>
+</ul>
+
+<h2>Check out the live Demo</h3>
+<a href="https://eliotmatrva.github.io/React-Todo-App/">Click Here for Demo!</a>
 
 This project is covered by the MIT License.
 Thank you to MIT and Professor Abel Sanchez for the starter code and the lesson.
