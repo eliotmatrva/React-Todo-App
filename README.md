@@ -20,5 +20,8 @@ User registrations
 <h2>Check out the live Demo</h3>
 <a href="https://eliotmatrva.github.io/React-Todo-App/">Click Here for Demo!</a>
 
+<h2>License</h2>
 This project is covered by the MIT License.
+
+<h2>Credits</h2>
 Thank you to MIT and Professor Abel Sanchez for the starter code and the lesson.
