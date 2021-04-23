@@ -15,26 +15,11 @@ body {
     background-color: purple;
     color: orange;
   }
-  #help-wrapper {
-    background: purple;
-    padding: 30px;
-  }
-
-  #help {
+  
+  .help {
       background-color: orange;
       border-radius: 4px;
-      max-width: 408px;
-  }
-
-  #help-contents {
-    background: #fff;
-    box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
-    padding: 3px 10px;
-    font-size: .85em;
-    border-radius: 3px;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+      font-size: .8em;
   }
 
   code {
@@ -52,6 +37,9 @@ body {
     border-radius: 4px;
     padding: 5px;
     max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
   }
   
   .todo{
@@ -59,17 +47,13 @@ body {
     box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
     padding: 3px 10px;
     font-size: 24px;
-    margin-bottom: 6px;
-    border-radius: 3px;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+    
   }
   
   .input{
     width: 100%;
     box-sizing: border-box;
-    border: 0;
+    border: 1px purple dashed;
     border-radius: 4px;
     box-shadow: none;
     padding: 1rem;
