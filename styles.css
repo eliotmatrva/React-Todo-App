@@ -3,20 +3,52 @@ body {
     font-family: 'Arial';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: orange;
   }
   
+  h1 {
+    background-color: orange;
+    color: purple;
+  }
+
+  h2 {
+    background-color: purple;
+    color: orange;
+  }
+  #help-wrapper {
+    background: purple;
+    padding: 30px;
+  }
+
+  #help {
+      background-color: orange;
+      border-radius: 4px;
+      max-width: 408px;
+  }
+
+  #help-contents {
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+    padding: 3px 10px;
+    font-size: .85em;
+    border-radius: 3px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   code {
     font-family: Arial;
   }
   
   .app {
-    background: #209cee;
+    background: purple;
     padding: 30px;
     height: 100vh;
   }
   
   .todo-list{
-    background: #e8e8e8;
+    background-color: orange;
     border-radius: 4px;
     padding: 5px;
     max-width: 400px;
